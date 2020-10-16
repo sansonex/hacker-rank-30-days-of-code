@@ -21,7 +21,5 @@ namespace HackerRank
                 Console.WriteLine(line);
             }
         }
-
-        protected string ResultString(int step, object result) => $"Step {step} - {result}";
     }
 }
