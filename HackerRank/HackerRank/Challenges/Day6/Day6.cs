@@ -16,11 +16,11 @@ namespace HackerRank.Challenges.Day6
             CalcMultiple(10, int.Parse(Input[0]));
         }
 
-        public void CalcMultiple(int howManyTimes, int yourNamber)
+        public void CalcMultiple(int howManyTimes, int number)
         {
             for (int i = 1; i <= howManyTimes; i++)
             {
-                Console.WriteLine($"{yourNamber} x {i} = " + i * yourNamber);
+                Console.WriteLine($"{number} x {i} = " + i * number);
             }
         }
     }
